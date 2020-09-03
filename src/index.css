@@ -5,9 +5,463 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ice-blue)
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --black: #161616;
+  --greyish: #a5a5a5;
+  --ice-blue: #f9faff;
+  --cobalt-blue: #071eb3;
+  --pale-lilac: #d6dcff;
+}
+
+/*Nav*/
+.nav-bolero{
+  display: flex;
+  padding: 0;
+ 
+}
+.nav-cont
+{
+  display: flex;
+ 
+  
+}
+
+.nav-bolero li{
+  display: inline;
+ 
+}
+
+.nav-home{
+
+ border-top: 4px solid var(--cobalt-blue);
+}
+
+.nav-bolero li a {
+
+  text-decoration: none;
+  float: left;
+  
+  padding: 10px 29px 10px 29px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: var(--cobalt-blue);
+  
+
+}
+
+.building-page{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Rectangle {
+  
+  height: 64px;
+  background-color: #ffffff;
+  margin-bottom: 120px;
+ 
+}
+
+
+.bellotero {
+  width: 133px;
+  height: 26px;
+  object-fit: contain;
+  padding: 19px 457px 19px 174px;
+}
+
+.RectangleTitle {
+  width: fit-content;
+  height: 56px;
+  background-color: var(--cobalt-blue);
+  margin-bottom: 80px;
+  
+}
+
+
+.columny-montly-ingredient
+{
+ padding-bottom: 66px;
+
+}
+
+.columny-left
+{
+  width: 50%;
+  margin-top: 0;
+  
+}
+
+.columny-testimonial
+{
+ 
+ padding-left: 215px;
+  
+}
+.columny-right-testimonial
+{
+  width: 50%;
+  margin-top: 0;
+  padding-right: 174px;
+  margin-left: 0px;
+  padding-left: 32px;
+}
+
+.columny-left-testimonial
+{
+  margin-left: 174px;
+}
+
+.rowly
+{
+  display: flex;
+  margin-right: 174px;
+  margin-left: 174px;
+}
+
+.rowly-testimonial
+{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  padding-bottom: 20px;
+
+}
+
+.rowly-grey
+{
+  display: flex;
+  background-color: #ffffff;
+  margin-right: 174px;
+  margin-left: 174px;
+  flex-direction: column;
+}
+.Our-customers-love-u {
+  
+  height: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  color: #ffffff;
+  padding: 8px 4px 8px 4px;
+}
+
+.Our-customers-love-u-calculator {
+  
+  height: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  color: #ffffff;
+  padding: 8px 4px 8px 4px;
+  margin: 0;
+}
+
+.Its-funny-what-mem {
+  width: 565px;
+  height: 190px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--black);
+  margin-top: 32px;
+  padding-right: 32px;
+}
+
+.Pete-Zahut {
+  width: 158px;
+  height: 48px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.Chef-Maniak {
+  width: 95px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--greyish);
+  margin-top: 0;
+}
+
+.Rectangle-Copy-6 {
+  width: 120px;
+  height: 56px;
+  background-color: var(--cobalt-blue);
+}
+
+.Rectangle-Arrow-left{
+  width: 56px;
+  height: 56px;
+  background-color: var(--cobalt-blue);
+  color: white;
+  transform: rotate(-90deg);
+  font-size: 30px;
+
+}
+.Rectangle-Arrow-right {
+  width: 56px;
+  height: 56px;
+  background-color: var(--cobalt-blue);
+  color: white;
+  transform: rotate(-270deg);
+  font-size: 30px;
+
+}
+
+.Combined-Shape-Copy-2 {
+  width: 16px;
+  height: 18px;
+  transform: rotate(-270deg);
+  background-color: #ffffff;
+}
+
+.number-slide{
+  width: 35px;
+  height: 32px;
+  font-family: CormorantGaramond;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0.69px;
+  color: #ffffff;
+  padding: 8px 44px 16px 41px;
+}
+
+.With-Belloteroio-yo {
+  width: 349px;
+  height: 120px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.Monthly-ingredient-s {
+  width: 126px;
+  height: 32px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+  padding-right: 231px;
+}
+
+.Monthly-ingredient-s {
+  width: 157px;
+  height: 32px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+  padding-right: 231px;
+}
+
+.Rectangle-Montly{
+  width: 190px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px var(--pale-lilac);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.Rectangle-Montly-ingredient{
+  width: 67px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px var(--pale-lilac);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.Rectangle-Montly-money{
+  width: 15px;
+  height: 40px;
+  opacity: 0.24;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+  color: var(--black);
+  padding-left: 12px;
+  padding-right: 34px;
+}
+
+.Rectangle-Montly-money-value{
+  width: 117px;
+  height: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  text-align: right;
+  color: var(--black);
+  
+}
+
+.Rectangle-Montly-ingredient-money-value{
+  width: 117px;
+  height: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  text-align: right;
+  color: var(--black);
+  padding-right: 12px;
+  
+}
+
+.columny-base{
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator{
+  display: flex;
+  flex-direction: column;
+}
+
+.cost-food-number{
+  width: 188px;
+  height: 72px;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--cobalt-blue);
+}
+
+.cost-food-money-simbol{
+  width: 22px;
+  height: 40px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  color: var(--cobalt-blue);
+}
+
+.cost-food-text{
+  width: 179px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.cost-food-container{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+}
+
+.cost-food-container-2{
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.cost-food-text {
+  width: fit-content;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.result-contents{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+}
+
+.testimonial-reference{
+  display: flex;
+  justify-content: space-between;
 }
